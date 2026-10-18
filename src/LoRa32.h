@@ -111,7 +111,7 @@
   #define LORA32_RADIO          SX1276
   #define LORA32_PINS_SPI       PINS(18, 27, 19,  5) // SS, SI, SO, SC
   #define LORA32_PINS_RADIO     PINS(23, 26, 33, 32) // RESET, BUSY/IO0,...IOn
-#elif defined(ARDUINO_TTGO_LORA32_V21NEW)
+#elif defined(ARDUINO_TTGO_LORA32_V21NEW) || defined(ARDUINO_TTGO_LoRa32_v21new)
   #define LORA32_RADIO          SX1276
   #define LORA32_PINS_SPI       PINS(18, 27, 19,  5) // SS, SI, SO, SC
   #define LORA32_PINS_RADIO     PINS(23, 26, 33, 32) // RESET, BUSY/IO0,...IOn
